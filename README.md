@@ -38,3 +38,13 @@ This skill builds on the learnings from the `walkthrough` skill, but is designed
 **When to use**
 
 This skill is designed for pull request reviews, especially when the PR is large and complex. It allows you to review the code in a more structured way, without needing to switch branches or context. The generated `WALKTHROUGH.md` can also be a helpful artifact to share with others or refer back to later.
+
+### [spot-skills](skills/spot-skills/SKILL.md)
+
+**Description**
+
+This skill helps you identify potential skills to add to your agent. This skill does not run automatically and is designed to be **manually triggered**, because it can be disruptive to have it running all the time. After completing a conversation with your agent, you can trigger this skill to analyze the conversation and suggest skills.
+
+**When to use**
+
+Use this skill after a conversation with your agent where you felt like it could have used an additional skill to be more helpful. This skill will analyze the conversation and suggest potential skills that could be added to your agent to improve its performance in future conversations.
